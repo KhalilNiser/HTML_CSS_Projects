@@ -5,3 +5,10 @@ p {
 	text-align: center;
 	
 }
+/*Specifying my x and y off-set
+Horizontal and Vertical off-set
+Color = green*/
+#myDiv {
+	text-shadow: 7px 7px green;
+
+}

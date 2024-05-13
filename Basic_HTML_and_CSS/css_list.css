@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css2?
+family=Roboto&display=swap);
+
+ol {
+    /*Start the list at number 3
+    List "order in reverse*/
+    list-style-type: lower-alpha;
+    color: brown;
+}
+
+ul {
+    /*Squared bullet points*/
+    list-style-type: square;
+    list-style-position: inside;
+    color: green;
+    line-height: 1.6; /*Spacing*/
+}
+
+ul li:nth-child( odd ) {
+    color: red;
+
+}
