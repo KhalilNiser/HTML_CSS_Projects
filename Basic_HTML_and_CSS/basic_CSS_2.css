@@ -1,14 +1,14 @@
 p {
-	color: snow;
+	/*color: snow;
 	background-color: black;
 	font-weight: bold;
-	text-align: center;
+	/*text-align: center;*/
 	
 }
 /*Specifying my x and y off-set
 Horizontal and Vertical off-set
 Color = green*/
 #myDiv {
-	text-shadow: 7px 7px green;
+	/*text-shadow: 7px 7px green;*/
 
 }
