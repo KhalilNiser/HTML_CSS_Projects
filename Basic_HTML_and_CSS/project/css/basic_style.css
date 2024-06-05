@@ -30,8 +30,8 @@ h1 {
 /* -----------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 -------------------------------------- */
-.container .squares:nth-child(-n+5) {
-    background-image: url("../images/icons/www.png");
+.container .squares:nth-child(-n+4) {
+    background-image: url("../images/icons/smileyFace1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -49,7 +49,7 @@ h1 {
 /* ----------------------------------------
 SELECTS ALL SQUARES PARAGRAPHS IN THE ARRAY
 -------------------------------------------*/
-.squares:nth-child(-n+5) p{
+.squares:nth-child(-n+4) p{
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 1.5em;
 font-weight: 900;
@@ -77,15 +77,11 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
     background: #00b200;
 }
 
-.squares:nth-child(5) {
-    background-color: #808000;
-}
-
 /* --------------------------------
 HOVER TRANSLATE & TRANSFORM EFFECTS
 -----------------------------------*/
-.container .squares:nth-child(-n+5):hover {
-    background-image: url("../images/icons/smileyFace1.png");
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("../images/icons/smileyFace2.png");
     transform: scale( .5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -109,12 +105,8 @@ background: #13b4ff;
     background: #77b800;
 }
 
-.squares:nth-child(5):hover {
-    background-color: chartreuse;
-}
-
 /* --------------------------------
-ANIMATION EFFECT
+ANIMATION EFFECT 
 -----------------------------------*/
 @keyframes race {
     /* ------------------------
