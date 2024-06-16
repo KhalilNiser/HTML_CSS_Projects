@@ -1,0 +1,102 @@
+/*-------------------------------
+GALLERY_SECTION_ANIMATION
+---------------------------------*/
+p 
+{
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+/* Denotes each image"s position, margin,
+and outlook inside the container */
+.photo 
+{
+    /* Position image relative 
+    to my container*/
+    position: relative;
+    /* All four lines: 
+    Top, Right, Bottom Left*/
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    /* Rounds my edges */
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ff0;
+    box-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.7 );
+}
+/* Box-Div that holds the image */
+.photo-container 
+{
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+    height: 169px;
+}
+/* The actual image itself */
+.photo-container img
+{
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+}
+/* Phrases and introductions part 
+inside my image*/
+.photo-overlay
+{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* For centering text inside .photo */
+    justify-content: center;
+    align-items: center;
+    background: rgba( 0, 0, 0, 0.5 );
+}
+/* "H3" phrase of the image */
+.white-head
+{
+    color: #C9BDAA;
+    margin-top: 5%;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/*---------------------------
+PHOT_OVERLAY_TRANSITION
+-----------------------------*/
+.photo-overlay
+{
+    opacity: 0;
+    transform: opacity .1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo-overlay p
+{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.photo-overlay:hover
+{
+    opacity: 0;
+}
+
+.photo img
+{
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img
+{
+    transform: scale( 1.1 );
+}
