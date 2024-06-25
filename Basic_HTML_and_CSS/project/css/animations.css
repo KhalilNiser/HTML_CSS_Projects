@@ -65,8 +65,8 @@ GALLERY_SECTION_ANIMATION
 .photo-container img 
 {
     max-width: 100%;
-    width: 300%;
-    height: 169%;
+    width: 300px;
+    height: 169px;
 }
 
 .photo-overlay 

@@ -1,6 +1,6 @@
-/* #################################
+/* ##############################
 GENERIC_STYLES/SHARED.CSS
-#################################### */
+################################# */
 html 
 {
     font-family: sans-serif;
@@ -27,7 +27,7 @@ footer, nav
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3
 {
     font-family: 'Open Sans' sans-serif;
 }
@@ -44,24 +44,24 @@ h1
     rgba(0, 0, 0, 0.5);
 }
 
-/* #########################################
+/* ###############################
  This_is_The_Underline      
-############################################ */
+################################## */
 h1::after 
 {
-display: block;
-content: " ";
-height: 2px;
-width: 150px;
-background: #E91C1C;
-margin: 5px auto 40px;
-box-shadow: 5px 2px 3px 
-rgba(0, 0, 0, 0.5)
+    display: block;
+    content: " ";
+    height: 2px;
+    width: 150px;
+    background: #E91C1C;
+    margin: 5px auto 40px;
+    box-shadow: 5px 2px 3px 
+    rgba(0, 0, 0, 0.5)
 }
 
 h2 
 {
-    line-height: 50px;
+    line-height: 30px;
     color: #E91C1C;
 }
 
@@ -71,13 +71,21 @@ h3
     padding-bottom: 20px;
 }
 
+h5 
+{
+    font-family: 'Open Sans' sans-serif;
+}
+
 h4 
 {
-    padding-top: 25px;
+    /* padding-top: 25px;
     line-height: 30px;
     padding-bottom: 0;
     font-size: 22%;
-    font-weight: 900;
+    font-weight: 900; */
+    font-family: 'Open Sans' sans-serif;
+    color: #E91C1C;
+    line-height: 20px;
 }
 
 p 
@@ -132,10 +140,10 @@ section
     margin-left: -15px;
 }
 
-/* #################################
+/* #############################
  Single double after (:after) 
  is now ::after
-#################################### */
+################################ */
 .clearfix::after 
 .container::after
 .navbar::after
@@ -336,7 +344,7 @@ CONTACT_STYLES
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
     border-left: 1px solid #090B0D;
-    margin: 10px, 1em;
+    margin: 10px 1em;
     border-radius: 7px;
     background: #13161B;
     box-shadow: inset 0px 3px 0px 0px
@@ -424,8 +432,8 @@ FOOTER_STYLES
 /* ################################
 MEDIA_QUERIES
 ################################### */ 
-@media all and (max-width: 640px) and 
-(min-width: 381px)
+@media all and (max-width: 640px) 
+and (min-width: 381px)
 {
     .head-main 
     {
@@ -434,8 +442,8 @@ MEDIA_QUERIES
 
 }
 
-@media all and (max-width: 381px) and 
-(min-width: 200px)
+@media all and (max-width: 381px) 
+and (min-width: 200px)
 {
     .head-main 
     {
