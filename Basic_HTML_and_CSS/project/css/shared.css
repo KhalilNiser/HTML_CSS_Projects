@@ -71,10 +71,15 @@ h3
     padding-bottom: 20px;
 }
 
-h5 
+h3:nth-child(2) 
+{
+    color: #E91C1C;
+}
+
+/* h5 
 {
     font-family: 'Open Sans' sans-serif;
-}
+} */
 
 h4 
 {
@@ -86,7 +91,7 @@ h4
     font-family: 'Open Sans' sans-serif;
     color: #E91C1C;
     line-height: 20px;
-}
+} 
 
 p 
 {
@@ -332,7 +337,7 @@ CONTACT_STYLES
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type = "text"] 
+.reservation input[type = "text"] 
 {
     font-size: 15px;
     outline: none;

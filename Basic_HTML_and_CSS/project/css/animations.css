@@ -10,7 +10,7 @@ MAIN_SECTION_ANIMATION
     margin: 0px auto;
     padding: 0;
     list-style: none;
-    list-decoration: none;
+    text-decoration: none;
 }
 
 .menu li 
